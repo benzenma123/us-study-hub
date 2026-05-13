@@ -1,7 +1,9 @@
+import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { ScrollText, AlertTriangle, Laptop, Eye, FileCheck, Calendar, ArrowRight, ExternalLink, BookCheck, Shield, Globe } from 'lucide-react'
+import { ScrollText, AlertTriangle, Laptop, Eye, FileCheck, Calendar, ArrowRight, ExternalLink, BookCheck, Shield, Globe, Clock, Zap, Hourglass } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { SectionHeader, Bentocard, stagger, fadeUp, C } from '../components/ui'
+import deadlines from '../data/deadlines.json'
 
 const timeline = [
   { date: 'Tháng 3-5/2025', title: 'Chuẩn bị hồ sơ', desc: 'Hoàn thiện bài luận, thư giới thiệu, bảng điểm. Đăng ký SAT/ACT nếu cần.', color: '#38bdf8' },
@@ -16,6 +18,74 @@ const resources = [
   { title: 'ICE SEVIS — I-20 & OPT', desc: 'Hệ thống SEVIS của Sở Di trú và Hải quan. Quản lý hồ sơ I-20, gia hạn OPT, chuyển trường.', url: 'https://www.ice.gov/sevis', color: '#d4a843' },
   { title: 'College Board — SAT/ACT', desc: 'Đăng ký thi, gửi điểm và tra cứu lịch thi SAT/ACT. Thông tin về yêu cầu điểm chuẩn hóa.', url: 'https://www.collegeboard.org', color: '#fb7185' },
 ]
+
+function CalcCountdown({ target }) {
+  const [now, setNow] = useState(Date.now())
+  useEffect(() => {
+    const id = setInterval(() => setNow(Date.now()), 1000)
+    return () => clearInterval(id)
+  }, [])
+
+  const diff = new Date(target) - now
+  if (diff <= 0) return <span className="text-[#34d399] font-semibold">Đã đến hạn</span>
+
+  const days = Math.floor(diff / 86400000)
+  const hours = Math.floor((diff % 86400000) / 3600000)
+  const minutes = Math.floor((diff % 3600000) / 60000)
+
+  let color = '#34d399'
+  if (days < 30) color = '#d4a843'
+  if (days < 7) color = '#fb7185'
+
+  return (
+    <span className="font-mono font-bold" style={{ color }}>
+      {days} ngày {hours.toString().padStart(2, '0')} giờ {minutes.toString().padStart(2, '0')} phút
+    </span>
+  )
+}
+
+function DeadlineBoard() {
+  return (
+    <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      {deadlines.map((d, i) => (
+        <motion.div
+          key={d.label}
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: i * 0.08 }}
+          className="rounded-xl border border-white/5 bg-white/[0.02] p-4 transition-all hover:border-white/10"
+        >
+          <div className="mb-2 flex items-center gap-2">
+            <Clock size={14} style={{ color: d.color }} />
+            <span
+              className="inline-block rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider"
+              style={{ background: `${d.color}20`, color: d.color }}
+            >
+              {d.tag}
+            </span>
+          </div>
+          <div className="mb-2 text-sm font-medium text-white">{d.label}</div>
+          <div className="text-xs text-white/30">{new Date(d.target).toLocaleDateString('vi-VN', { year: 'numeric', month: 'long', day: 'numeric' })}</div>
+          <div className="mt-2 text-sm">
+            <CalcCountdown target={d.target} />
+          </div>
+          <div className="mt-2">
+            <a
+              href={d.source}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1 text-[10px] text-white/30 transition-colors hover:text-[#d4a843]"
+            >
+              <ExternalLink size={10} />
+              {d.sourceLabel}
+            </a>
+          </div>
+        </motion.div>
+      ))}
+    </div>
+  )
+}
 
 export default function VisaUpdates() {
   return (
@@ -65,6 +135,16 @@ export default function VisaUpdates() {
               ))}
             </div>
           </div>
+        </motion.div>
+
+        {/* DEADLINE BOARD */}
+        <motion.div {...fadeUp} className="mt-16">
+          <div className="mb-8 text-center">
+            <div className="mb-4 inline-flex rounded-xl bg-[#fb7185]/10 p-3"><Hourglass size={28} className="text-[#fb7185]" /></div>
+            <h2 className="text-3xl font-bold sm:text-4xl">Deadline <span className="text-[#fb7185]">Board</span></h2>
+            <p className="mt-3 text-white/50">Đếm ngược thời gian thực — các mốc quan trọng mùa tuyển sinh 2025-2026</p>
+          </div>
+          <DeadlineBoard />
         </motion.div>
 
         {/* Resources */}
