@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { SectionHeader, fadeUp } from '../components/ui'
 
 const stemFields = [
-  { icon: Brain, title: 'AI & Machine Learning', desc: 'Ngành hot nhất 2025 với nhu cầu nhân lực toàn cầu tăng vọt. Lương khởi điểm từ $100,000+. Cơ hội việc làm tại các Big Tech: Google, Meta, OpenAI, Anthropic.', color: '#38bdf8', growth: '+35%', salary: '$100K-$200K' },
+  { icon: Brain, title: 'AI & Machine Learning', desc: 'Ngành hot nhất 2026 với nhu cầu nhân lực toàn cầu tăng vọt. Lương khởi điểm từ $100,000+. Cơ hội việc làm tại các Big Tech: Google, Meta, OpenAI, Anthropic.', color: '#38bdf8', growth: '+35%', salary: '$100K-$200K' },
   { icon: Shield, title: 'Cybersecurity', desc: 'Tăng trưởng >30% mỗi năm. Bảo vệ hạ tầng số trước các mối đe dọa an ninh mạng. Nhu cầu tuyển dụng vượt cung gấp 3 lần.', color: '#34d399', growth: '+32%', salary: '$90K-$160K' },
   { icon: BarChart3, title: 'Data Science', desc: 'Xương sống của nền kinh tế dữ liệu. Kỹ năng phân tích big data được săn đón mọi ngành từ tài chính đến y tế.', color: '#d4a843', growth: '+28%', salary: '$85K-$150K' },
   { icon: HeartPulse, title: 'Healthcare & Biotech', desc: 'Ngành y tế kết hợp công nghệ sinh học. Đầu tư khổng lồ vào nghiên cứu thuốc mới, gene therapy và medical devices.', color: '#fb7185', growth: '+25%', salary: '$80K-$180K' },
@@ -62,7 +62,7 @@ export default function Stem() {
         <motion.div {...fadeUp} className="mt-12 rounded-2xl border border-white/10 bg-[#112240]/60 p-6 backdrop-blur-sm sm:p-8">
           <div className="mb-6 flex items-center gap-3">
             <DollarSign size={22} className="text-[#d4a843]" />
-            <h3 className="text-xl font-bold text-white">Thang lương ngành STEM 2025</h3>
+            <h3 className="text-xl font-bold text-white">Thang lương ngành STEM 2026</h3>
           </div>
 
           <div className="overflow-x-auto">
@@ -94,7 +94,7 @@ export default function Stem() {
           </div>
 
           <div className="mt-4 rounded-xl border border-[#34d399]/20 bg-[#34d399]/5 p-3 text-center text-xs text-white/50">
-            Dữ liệu tổng hợp từ Glassdoor, Levels.fyi và Bureau of Labor Statistics 2025
+            Dữ liệu tổng hợp từ Glassdoor, Levels.fyi và Bureau of Labor Statistics 2026
           </div>
         </motion.div>
 

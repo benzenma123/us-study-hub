@@ -6,10 +6,10 @@ import { SectionHeader, Bentocard, stagger, fadeUp, C } from '../components/ui'
 import deadlines from '../data/deadlines.json'
 
 const timeline = [
-  { date: 'Tháng 3-5/2025', title: 'Chuẩn bị hồ sơ', desc: 'Hoàn thiện bài luận, thư giới thiệu, bảng điểm. Đăng ký SAT/ACT nếu cần.', color: '#38bdf8' },
-  { date: 'Tháng 6-8/2025', title: 'Nộp đơn sớm (Early Action)', desc: 'Nhiều trường Ivy League có hạn nộp EA vào tháng 11. Chuẩn bị sớm giúp tăng tỷ lệ trúng tuyển.', color: '#d4a843' },
-  { date: 'Tháng 9-12/2025', title: 'Hạn nộp Regular Decision', desc: 'Hầu hết trường đóng hồ sơ vào tháng 12-1. Đảm bảo bài luận cá nhân hóa và kiểm tra kỹ.', color: '#34d399' },
-  { date: 'Tháng 1-3/2026', title: 'Kết quả & Visa', desc: 'Nhận thư mời nhập học, xin I-20, đóng SEVIS và đặt lịch phỏng vấn visa F-1.', color: '#fb7185' },
+  { date: 'Tháng 3-5/2026', title: 'Chuẩn bị hồ sơ', desc: 'Hoàn thiện bài luận, thư giới thiệu, bảng điểm. Đăng ký SAT/ACT nếu cần.', color: '#38bdf8' },
+  { date: 'Tháng 6-8/2026', title: 'Nộp đơn sớm (Early Action)', desc: 'Nhiều trường Ivy League có hạn nộp EA vào tháng 11. Chuẩn bị sớm giúp tăng tỷ lệ trúng tuyển.', color: '#d4a843' },
+  { date: 'Tháng 9-12/2026', title: 'Hạn nộp Regular Decision', desc: 'Hầu hết trường đóng hồ sơ vào tháng 12-1. Đảm bảo bài luận cá nhân hóa và kiểm tra kỹ.', color: '#34d399' },
+  { date: 'Tháng 1-3/2027', title: 'Kết quả & Visa', desc: 'Nhận thư mời nhập học, xin I-20, đóng SEVIS và đặt lịch phỏng vấn visa F-1.', color: '#fb7185' },
 ]
 
 const resources = [
@@ -93,14 +93,14 @@ export default function VisaUpdates() {
       <div className="absolute inset-0 bg-gradient-to-b from-[#0a1628] via-[#0d1b30] to-[#0a1628]" />
 
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6">
-        <SectionHeader icon={ScrollText} title="Cập nhật" highlight="Visa & Tuyển sinh" desc="Những thay đổi quan trọng bạn cần biết cho mùa tuyển sinh 2025-2026" iconBg="#38bdf8" />
+        <SectionHeader icon={ScrollText} title="Cập nhật" highlight="Visa & Tuyển sinh" desc="Những thay đổi quan trọng bạn cần biết cho mùa tuyển sinh 2026-2027" iconBg="#38bdf8" />
 
         <motion.div variants={{ hidden: {}, show: { transition: { staggerChildren: 0.12 } } }} initial="hidden" whileInView="show" viewport={{ once: true }} className="grid gap-5 md:grid-cols-3">
           <Bentocard icon={FileCheck} title="SAT/ACT trở lại mạnh mẽ" desc="Các trường Ivy League bao gồm Harvard, Yale, Brown, MIT và Dartmouth đã khôi phục yêu cầu điểm thi chuẩn hóa. Thí sinh cần chuẩn bị kỹ lưỡng cho kỳ thi SAT/ACT để tăng lợi thế cạnh tranh." badge="Yêu cầu bắt buộc" color="#38bdf8" accent="Kiểm tra yêu cầu từng trường" />
-          <Bentocard icon={AlertTriangle} title="Quy định Visa mới" desc="Bắt buộc khai báo tài khoản Mạng xã hội công khai khi xin visa. Cảnh báo rủi ro nghiêm trọng khi tham gia biểu tình hoặc các hoạt động chính trị không được phép. Hồ sơ cần minh bạch và nhất quán." badge="Bắt buộc 2025" color="#fb7185" accent="Khai báo trung thực" />
+          <Bentocard icon={AlertTriangle} title="Quy định Visa mới" desc="Bắt buộc khai báo tài khoản Mạng xã hội công khai khi xin visa. Cảnh báo rủi ro nghiêm trọng khi tham gia biểu tình hoặc các hoạt động chính trị không được phép. Hồ sơ cần minh bạch và nhất quán." badge="Bắt buộc 2026" color="#fb7185" accent="Khai báo trung thực" />
           <Bentocard icon={Laptop} title="Chính sách AI trong tuyển sinh" desc="Caltech & Georgia Tech cho phép dùng AI hỗ trợ ý tưởng nhưng giọng văn bài luận phải là 'duy nhất' của thí sinh. Các trường sử dụng AI detection để phát hiện bài viết không nguyên bản." badge="Quy định mới" color="#34d399" accent="Viết bài luận bằng giọng văn riêng" />
           <div className="md:col-span-3">
-            <Bentocard icon={Eye} title="Đánh giá toàn diện (Holistic Admission)" desc="56% trường đại học Mỹ ưu tiên hoạt động ngoại khóa và bài luận cá nhân hơn điểm số đơn thuần. Hồ sơ cần thể hiện câu chuyện độc đáo, khả năng lãnh đạo, và tác động đến cộng đồng. Đây là cơ hội để bạn tỏa sáng ngoài điểm GPA và SAT. Các yếu tố được xem xét: hoạt động tình nguyện, câu lạc bộ, thể thao, nghiên cứu khoa học, kỹ năng lãnh đạo, và bài luận cá nhân." badge="Xu hướng 2025" color="#d4a843" accent="Xây dựng hồ sơ ngoại khóa chất lượng" />
+            <Bentocard icon={Eye} title="Đánh giá toàn diện (Holistic Admission)" desc="56% trường đại học Mỹ ưu tiên hoạt động ngoại khóa và bài luận cá nhân hơn điểm số đơn thuần. Hồ sơ cần thể hiện câu chuyện độc đáo, khả năng lãnh đạo, và tác động đến cộng đồng. Đây là cơ hội để bạn tỏa sáng ngoài điểm GPA và SAT. Các yếu tố được xem xét: hoạt động tình nguyện, câu lạc bộ, thể thao, nghiên cứu khoa học, kỹ năng lãnh đạo, và bài luận cá nhân." badge="Xu hướng 2026" color="#d4a843" accent="Xây dựng hồ sơ ngoại khóa chất lượng" />
           </div>
         </motion.div>
 
@@ -109,7 +109,7 @@ export default function VisaUpdates() {
           <div className="mb-8 text-center">
             <div className="mb-4 inline-flex rounded-xl bg-[#d4a843]/10 p-3"><Calendar size={28} className="text-[#d4a843]" /></div>
             <h2 className="text-3xl font-bold sm:text-4xl">Timeline <span className="text-[#d4a843]">Tuyển sinh</span></h2>
-            <p className="mt-3 text-white/50">Lộ trình chi tiết cho mùa tuyển sinh 2025-2026</p>
+            <p className="mt-3 text-white/50">Lộ trình chi tiết cho mùa tuyển sinh 2026-2027</p>
           </div>
 
           <div className="relative">
@@ -142,7 +142,7 @@ export default function VisaUpdates() {
           <div className="mb-8 text-center">
             <div className="mb-4 inline-flex rounded-xl bg-[#fb7185]/10 p-3"><Hourglass size={28} className="text-[#fb7185]" /></div>
             <h2 className="text-3xl font-bold sm:text-4xl">Deadline <span className="text-[#fb7185]">Board</span></h2>
-            <p className="mt-3 text-white/50">Đếm ngược thời gian thực — các mốc quan trọng mùa tuyển sinh 2025-2026</p>
+            <p className="mt-3 text-white/50">Đếm ngược thời gian thực — các mốc quan trọng mùa tuyển sinh 2026-2027</p>
           </div>
           <DeadlineBoard />
         </motion.div>

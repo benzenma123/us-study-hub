@@ -176,7 +176,7 @@ export default function CalculatorPage() {
               </div>
 
               <Link to="/visa" className="mt-4 flex w-full items-center justify-center gap-2 rounded-xl bg-[#d4a843] px-4 py-3 text-sm font-semibold text-[#0a1628] transition-all hover:bg-[#e0b84f]">
-                <Rocket size={16} />Khám phá cơ hội Visa 2025<ArrowRight size={14} />
+                <Rocket size={16} />Khám phá cơ hội Visa 2026<ArrowRight size={14} />
               </Link>
             </div>
           </motion.div>

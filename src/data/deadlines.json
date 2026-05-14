@@ -1,7 +1,7 @@
 [
   {
     "label": "SAT — Kỳ thi Tháng 11",
-    "target": "2025-11-08T07:45:00",
+    "target": "2026-11-07T07:45:00",
     "tag": "Kỳ thi",
     "color": "#38bdf8",
     "source": "https://satsuite.collegeboard.org/sat/dates-deadlines",
@@ -10,7 +10,7 @@
   },
   {
     "label": "Harvard REA — Hạn nộp Early Action",
-    "target": "2025-11-01T23:59:00",
+    "target": "2026-11-01T23:59:00",
     "tag": "Hạn nộp",
     "color": "#d4a843",
     "source": "https://college.harvard.edu/admissions/apply/first-year-applicants",
@@ -19,7 +19,7 @@
   },
   {
     "label": "Regular Decision — Hạn nộp chính đa số trường",
-    "target": "2026-01-01T23:59:00",
+    "target": "2027-01-01T23:59:00",
     "tag": "Hạn nộp",
     "color": "#fb7185",
     "source": "https://www.commonapp.org",
@@ -28,7 +28,7 @@
   },
   {
     "label": "F-1 Visa — Mở đơn xin (120 ngày trước nhập học)",
-    "target": "2026-04-01T00:00:00",
+    "target": "2027-04-01T00:00:00",
     "tag": "Visa",
     "color": "#34d399",
     "source": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
@@ -37,7 +37,7 @@
   },
   {
     "label": "SEVIS I-20 — Hạn xác nhận & đóng phí",
-    "target": "2026-05-01T23:59:00",
+    "target": "2027-05-01T23:59:00",
     "tag": "Hồ sơ",
     "color": "#a78bfa",
     "source": "https://studyinthestates.dhs.gov",
@@ -46,7 +46,7 @@
   },
   {
     "label": "OPT — Hạn nộp đơn (60 ngày sau tốt nghiệp)",
-    "target": "2026-07-15T23:59:00",
+    "target": "2028-07-15T23:59:00",
     "tag": "OPT",
     "color": "#f59e0b",
     "source": "https://www.ice.gov/sevis/employment",

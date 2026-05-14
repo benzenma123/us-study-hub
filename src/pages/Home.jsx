@@ -44,17 +44,17 @@ export default function Home() {
         <div className="relative mx-auto flex min-h-[calc(100vh-64px)] max-w-7xl flex-col items-center justify-center px-4 py-20 text-center sm:px-6">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }} className="mb-6 inline-flex items-center gap-2 rounded-full border border-[#d4a843]/20 bg-[#d4a843]/10 px-4 py-1.5 text-sm text-[#d4a843]">
             <Sparkle size={14} />
-            <span>Cập nhật chính sách Du học Mỹ 2025-2026</span>
+            <span>Cập nhật chính sách Du học Mỹ 2026-2027</span>
           </motion.div>
 
           <motion.h1 initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2, duration: 0.7 }} className="max-w-4xl text-4xl font-extrabold leading-tight sm:text-5xl md:text-6xl lg:text-7xl">
             Chinh phục{' '}
-            <span className="bg-gradient-to-r from-[#d4a843] via-[#f0d080] to-[#d4a843] bg-clip-text text-transparent">Giấc mơ Mỹ 2025</span>
+            <span className="bg-gradient-to-r from-[#d4a843] via-[#f0d080] to-[#d4a843] bg-clip-text text-transparent">Giấc mơ Mỹ 2026</span>
             <br />Lộ trình & Chiến lược mới
           </motion.h1>
 
           <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4, duration: 0.6 }} className="mt-6 max-w-2xl text-lg leading-relaxed text-white/50 sm:text-xl">
-            Khám phá lộ trình du học Mỹ toàn diện với cập nhật mới nhất về visa, tuyển sinh và cơ hội nghề nghiệp STEM năm 2025.
+            Khám phá lộ trình du học Mỹ toàn diện với cập nhật mới nhất về visa, tuyển sinh và cơ hội nghề nghiệp STEM năm 2026.
           </motion.p>
 
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="mt-8 flex flex-wrap items-center justify-center gap-4">
@@ -62,12 +62,12 @@ export default function Home() {
               <Calculator size={18} />Tính chi phí ngay<ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
             </Link>
             <Link to="/visa" className="group inline-flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-6 py-3 font-medium text-white/80 transition-all hover:border-white/20 hover:bg-white/10">
-              <ScrollText size={18} />Cập nhật Visa 2025
+              <ScrollText size={18} />Cập nhật Visa 2026
             </Link>
           </motion.div>
 
           <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.7, duration: 0.6 }} className="mt-16 grid w-full max-w-4xl grid-cols-1 gap-4 sm:grid-cols-3">
-            <StatCard value="$80K – $120K" label="Lương khởi điểm ngành STEM" icon={TrendingUp} sub="Trung bình năm 2025" />
+            <StatCard value="$80K – $120K" label="Lương khởi điểm ngành STEM" icon={TrendingUp} sub="Trung bình năm 2026" />
             <StatCard value="36 tháng" label="Thời gian làm việc OPT tối đa" icon={Clock} sub="12 tháng gốc + 24 tháng STEM" />
             <StatCard value="56%" label="Trường ưu tiên đánh giá toàn diện" icon={Award} sub="Ngoại khóa & Bài luận > Điểm số" />
           </motion.div>

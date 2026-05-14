@@ -21,7 +21,7 @@ const funFacts = [
 ]
 
 const eduFacts = [
-  { icon: GraduationCap, title: 'Top 1 thế giới', desc: 'Mỹ có hơn 4.000 trường đại học và cao đẳng. 8/10 trường đại học hàng đầu thế giới là ở Mỹ (THE 2025).' },
+  { icon: GraduationCap, title: 'Top 1 thế giới', desc: 'Mỹ có hơn 4.000 trường đại học và cao đẳng. 8/10 trường đại học hàng đầu thế giới là ở Mỹ (THE 2026).' },
   { icon: Library, title: 'Library of Congress', desc: 'Thư viện lớn nhất thế giới với hơn 170 triệu đầu mục tài liệu, trải dài hơn 1.700 km kệ sách.' },
   { icon: DollarSign, title: 'Học bổng khổng lồ', desc: 'Chính phủ và các trường ĐH Mỹ chi hơn $40 tỷ học bổng mỗi năm cho sinh viên quốc tế.' },
   { icon: Heart, title: 'Hỗ trợ sinh viên quốc tế', desc: 'Hầu hết trường có International Student Office hỗ trợ visa, SEVIS, OPT/CPT và hòa nhập văn hóa.' },

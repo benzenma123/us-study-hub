@@ -44,7 +44,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-10 border-t border-white/5 pt-6 text-center text-xs text-white/30">
-          &copy; 2025 US Study Hub. Dữ liệu được tổng hợp từ các nguồn chính thống. Thông tin chỉ mang tính tham khảo.
+          &copy; 2026 US Study Hub. Dữ liệu được tổng hợp từ các nguồn chính thống. Thông tin chỉ mang tính tham khảo.
         </div>
       </div>
     </footer>
