@@ -8,6 +8,7 @@ const links = [
   { to: '/visa', label: 'Visa & Tuyển sinh' },
   { to: '/stem', label: 'Ngành STEM' },
   { to: '/faq', label: 'FAQ' },
+  { to: '/usa-facts', label: 'Về nước Mỹ' },
   { to: '/generate', label: 'Tạo bài viết' },
   { to: '/contact', label: 'Liên hệ' },
 ]

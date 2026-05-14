@@ -8,6 +8,7 @@ import Faq from './pages/Faq'
 import GenerateScript from './pages/GenerateScript'
 import Contact from './pages/Contact'
 import AiChat from './pages/AiChat'
+import UsaFacts from './pages/UsaFacts'
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,7 @@ const router = createBrowserRouter([
       { path: 'faq', element: <Faq /> },
       { path: 'generate', element: <GenerateScript /> },
       { path: 'contact', element: <Contact /> },
+      { path: 'usa-facts', element: <UsaFacts /> },
       { path: 'ai-chat', element: <AiChat /> },
     ],
   },
