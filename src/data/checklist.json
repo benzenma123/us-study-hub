@@ -1,0 +1,73 @@
+[
+  {
+    "stage": "12 tháng trước",
+    "icon": "Calendar",
+    "color": "#38bdf8",
+    "items": [
+      { "label": "Nghiên cứu các trường đại học và ngành học phù hợp", "done": false },
+      { "label": "Đăng ký thi SAT/ACT (nếu cần)", "done": false },
+      { "label": "Đăng ký thi TOEFL/IELTS", "done": false },
+      { "label": "Lập kế hoạch tài chính và tìm hiểu học bổng", "done": false },
+      { "label": "Xây dựng hồ sơ ngoại khóa (tình nguyện, câu lạc bộ, nghiên cứu)", "done": false },
+      { "label": "Tìm giáo viên viết thư giới thiệu", "done": false },
+      { "label": "Mở tài khoản Common App / Coalition App", "done": false }
+    ]
+  },
+  {
+    "stage": "6 tháng trước",
+    "icon": "Clock",
+    "color": "#d4a843",
+    "items": [
+      { "label": "Thi SAT/ACT và gửi điểm", "done": false },
+      { "label": "Thi TOEFL/IELTS và gửi điểm", "done": false },
+      { "label": "Viết bài luận chính (Personal Statement)", "done": false },
+      { "label": "Viết bài luận phụ (Supplemental Essays)", "done": false },
+      { "label": "Hoàn thiện thư giới thiệu", "done": false },
+      { "label": "Chuẩn bị hồ sơ tài chính (báo sao kê ngân hàng)", "done": false },
+      { "label": "Lập danh sách trường: Reach / Target / Safety", "done": false }
+    ]
+  },
+  {
+    "stage": "3 tháng trước",
+    "icon": "FileCheck",
+    "color": "#34d399",
+    "items": [
+      { "label": "Nộp đơn Early Action / Early Decision", "done": false },
+      { "label": "Nộp đơn Regular Decision", "done": false },
+      { "label": "Nộp hồ sơ xin học bổng", "done": false },
+      { "label": "Kiểm tra lại toàn bộ hồ sơ trước khi nộp", "done": false },
+      { "label": "Chuẩn bị phỏng vấn đại học (nếu có)", "done": false },
+      { "label": "Xác nhận học bổng và hỗ trợ tài chính", "done": false }
+    ]
+  },
+  {
+    "stage": "1 tháng trước",
+    "icon": "Plane",
+    "color": "#fb7185",
+    "items": [
+      { "label": "Nhận I-20 và kiểm tra thông tin", "done": false },
+      { "label": "Đóng phí SEVIS ($350)", "done": false },
+      { "label": "Điền đơn DS-160 xin visa F-1", "done": false },
+      { "label": "Đặt lịch phỏng vấn visa tại Đại sứ quán", "done": false },
+      { "label": "Chuẩn bị hồ sơ phỏng vấn visa", "done": false },
+      { "label": "Đặt vé máy bay", "done": false },
+      { "label": "Tìm nhà ở / ký túc xá", "done": false },
+      { "label": "Đăng ký khám sức khỏe du học", "done": false }
+    ]
+  },
+  {
+    "stage": "Tuần lên đường",
+    "icon": "Zap",
+    "color": "#a78bfa",
+    "items": [
+      { "label": "Đóng gói hành lý (kiểm tra danh sách đồ cần mang)", "done": false },
+      { "label": "Sắp xếp tài chính (mở thẻ tín dụng quốc tế, đổi USD)", "done": false },
+      { "label": "Mua bảo hiểm du học (nếu trường chưa yêu cầu)", "done": false },
+      { "label": "Khai báo hải quan điện tử (nếu có)", "done": false },
+      { "label": "Check-in online và chuẩn bị sân bay", "done": false },
+      { "label": "Thông báo cho gia đình và bạn bè", "done": false },
+      { "label": "Tải ứng dụng cần thiết (Google Maps, Uber, WhatsApp)", "done": false },
+      { "label": "Kiểm tra lại hộ chiếu, visa, I-20, DS-160", "done": false }
+    ]
+  }
+]

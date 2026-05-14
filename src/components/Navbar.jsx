@@ -5,11 +5,16 @@ import { GraduationCap, Menu, X, MessageCircle } from 'lucide-react'
 const links = [
   { to: '/', label: 'Trang chủ' },
   { to: '/calculator', label: 'Tính chi phí' },
-  { to: '/visa', label: 'Visa & Tuyển sinh' },
-  { to: '/stem', label: 'Ngành STEM' },
+  { to: '/scholarships', label: 'Học bổng' },
+  { to: '/visa', label: 'Visa' },
+  { to: '/visa-interview', label: 'Phỏng vấn' },
+  { to: '/stem', label: 'STEM' },
+  { to: '/compare', label: 'So sánh trường' },
+  { to: '/checklist', label: 'Checklist' },
+  { to: '/blog', label: 'Blog' },
+  { to: '/usa-facts', label: 'Về Mỹ' },
   { to: '/faq', label: 'FAQ' },
-  { to: '/usa-facts', label: 'Về nước Mỹ' },
-  { to: '/generate', label: 'Tạo bài viết' },
+  { to: '/generate', label: 'Bài viết' },
   { to: '/contact', label: 'Liên hệ' },
 ]
 

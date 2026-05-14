@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Fulbright Scholarship",
+    "amount": "Toàn phần",
+    "deadline": "2026-10-08",
+    "field": "All",
+    "type": "Full",
+    "eligibility": "Sinh viên tốt nghiệp ĐH, có thành tích học tập xuất sắc, tiếng Anh tốt",
+    "desc": "Chương trình học bổng danh giá nhất của Chính phủ Mỹ dành cho du học sinh quốc tế. Bao gồm toàn bộ học phí, sinh hoạt phí, vé máy bay và bảo hiểm y tế.",
+    "applyUrl": "https://fulbright.edu.vn",
+    "color": "#38bdf8"
+  },
+  {
+    "name": "Harvard University Scholarships",
+    "amount": "$50,000 – $70,000/năm",
+    "deadline": "2026-12-01",
+    "field": "All",
+    "type": "Need-based",
+    "eligibility": "Dựa trên nhu cầu tài chính, GPA 3.8+, SAT 1500+",
+    "desc": "Harvard cam kết đáp ứng 100% nhu cầu tài chính của sinh viên quốc tế. Học bổng dựa trên thu nhập gia đình.",
+    "applyUrl": "https://college.harvard.edu/financial-aid",
+    "color": "#d4a843"
+  },
+  {
+    "name": "MIT Scholarships",
+    "amount": "$40,000 – $65,000/năm",
+    "deadline": "2026-11-30",
+    "field": "STEM",
+    "type": "Need-based",
+    "eligibility": "GPA 4.0+, SAT Math 780+, hồ sơ STEM mạnh",
+    "desc": "MIT cấp học bổng nhu cầu cho sinh viên quốc tế với mức hỗ trợ trung bình $57,000/năm.",
+    "applyUrl": "https://mit.edu/admissions",
+    "color": "#34d399"
+  },
+  {
+    "name": "Stanford Knight-Hennessy",
+    "amount": "Toàn phần",
+    "deadline": "2026-10-12",
+    "field": "All",
+    "type": "Full",
+    "eligibility": "Dành cho ứng viên Thạc sĩ/Tiến sĩ, khả năng lãnh đạo xuất sắc",
+    "desc": "Học bổng toàn phần cho chương trình Sau đại học tại Stanford. Bao gồm học phí, sinh hoạt phí, vé máy bay.",
+    "applyUrl": "https://knight-hennessy.stanford.edu",
+    "color": "#fb7185"
+  },
+  {
+    "name": "AAUW International Fellowship",
+    "amount": "$20,000 – $50,000",
+    "deadline": "2026-11-15",
+    "field": "All",
+    "type": "Partial",
+    "eligibility": "Nữ giới, đã tốt nghiệp ĐH, học Thạc sĩ/Tiến sĩ tại Mỹ",
+    "desc": "Học bổng dành riêng cho nữ sinh viên quốc tế theo học chương trình sau đại học tại Mỹ.",
+    "applyUrl": "https://aauw.org",
+    "color": "#a78bfa"
+  },
+  {
+    "name": "Yale University Scholarships",
+    "amount": "$40,000 – $70,000/năm",
+    "deadline": "2026-12-15",
+    "field": "All",
+    "type": "Need-based",
+    "eligibility": "GPA 3.8+, SAT 1480+, có nhu cầu tài chính",
+    "desc": "Yale đáp ứng 100% nhu cầu tài chính cho sinh viên quốc tế. Mức hỗ trợ trung bình $56,000/năm.",
+    "applyUrl": "https://yale.edu/admissions",
+    "color": "#f59e0b"
+  },
+  {
+    "name": "University of Southern California Merit",
+    "amount": "$15,000 – $30,000/năm",
+    "deadline": "2026-12-01",
+    "field": "All",
+    "type": "Merit",
+    "eligibility": "GPA 3.8+, SAT 1450+, hoạt động ngoại khóa xuất sắc",
+    "desc": "Học bổng dựa trên thành tích học tập và ngoại khóa tại USC.",
+    "applyUrl": "https://usc.edu/admissions",
+    "color": "#38bdf8"
+  },
+  {
+    "name": "Gates Scholarship",
+    "amount": "Toàn phần",
+    "deadline": "2026-09-15",
+    "field": "STEM",
+    "type": "Full",
+    "eligibility": "GPA 3.9+, lãnh đạo xuất sắc, cam kết cộng đồng",
+    "desc": "Học bổng toàn phần từ Quỹ Bill & Melinda Gates dành cho sinh viên tài năng xuất sắc ngành STEM.",
+    "applyUrl": "https://gatesfoundation.org",
+    "color": "#34d399"
+  },
+  {
+    "name": "Brown University Scholarships",
+    "amount": "$35,000 – $65,000/năm",
+    "deadline": "2026-12-01",
+    "field": "All",
+    "type": "Need-based",
+    "eligibility": "GPA 3.7+, SAT 1450+, nhu cầu tài chính",
+    "desc": "Brown cung cấp học bổng nhu cầu cho sinh viên quốc tế. Hỗ trợ trung bình $52,000/năm.",
+    "applyUrl": "https://brown.edu/admissions",
+    "color": "#d4a843"
+  },
+  {
+    "name": "Dartmouth College Scholarships",
+    "amount": "$40,000 – $65,000/năm",
+    "deadline": "2026-12-01",
+    "field": "All",
+    "type": "Need-based",
+    "eligibility": "GPA 3.8+, SAT 1460+, nhu cầu tài chính",
+    "desc": "Dartmouth đáp ứng nhu cầu tài chính cho sinh viên quốc tế. Hỗ trợ trung bình $54,000/năm.",
+    "applyUrl": "https://dartmouth.edu/admissions",
+    "color": "#fb7185"
+  }
+]

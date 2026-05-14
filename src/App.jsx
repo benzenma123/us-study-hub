@@ -9,6 +9,11 @@ import GenerateScript from './pages/GenerateScript'
 import Contact from './pages/Contact'
 import AiChat from './pages/AiChat'
 import UsaFacts from './pages/UsaFacts'
+import Scholarships from './pages/Scholarships'
+import VisaInterview from './pages/VisaInterview'
+import CompareSchools from './pages/CompareSchools'
+import Checklist from './pages/Checklist'
+import Blog from './pages/Blog'
 
 const router = createBrowserRouter([
   {
@@ -22,6 +27,11 @@ const router = createBrowserRouter([
       { path: 'generate', element: <GenerateScript /> },
       { path: 'contact', element: <Contact /> },
       { path: 'usa-facts', element: <UsaFacts /> },
+      { path: 'scholarships', element: <Scholarships /> },
+      { path: 'visa-interview', element: <VisaInterview /> },
+      { path: 'compare', element: <CompareSchools /> },
+      { path: 'checklist', element: <Checklist /> },
+      { path: 'blog', element: <Blog /> },
       { path: 'ai-chat', element: <AiChat /> },
     ],
   },
